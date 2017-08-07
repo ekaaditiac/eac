@@ -1,0 +1,50 @@
+.calc-height{
+  height: calc(100vh - 165px);
+}
+.box-radial-photo{
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.gap-right{
+  margin-right: 36px;
+}
+
+.box-content{
+  width: 100%;
+  max-width: 568px;
+}
+
+.box-content p{
+  line-height: 1.75em;
+  letter-spacing: 1.5px;
+  font-size: 1.25em;
+  font-weight: 300;
+  color: #404040;
+
+  margin-top: 27px;
+}
+.box-content p a{
+  text-decoration: none;
+  font-weight: 500;
+  color: #51b6f4;
+  border-bottom: 2px solid #51b6f4;
+}
+.box-content h1{
+  font-weight: 300;
+  color: #3d3d3d;
+}
+.box-content > span{
+  font-weight: 300;
+  color: #e9e8ea;
+}
+.footer-p{
+  line-height: 1.75em;
+  letter-spacing: 1.5px;
+  font-size: .85em;
+  font-weight: 300;
+  color: #c1c1c1;
+  text-align: center
+}
