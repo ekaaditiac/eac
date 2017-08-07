@@ -4,8 +4,8 @@ class Greetings extends Component {
   render(){
     return(
 
-        <span title={props.title}> </span>
-  
+        <span> </span>
+
     );
   }
 }

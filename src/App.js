@@ -16,6 +16,9 @@ class App extends Component {
 
   constructor(props) {
     super(props);
+    this.state ={
+      says:"Evening"
+    };
   }
 
 
@@ -30,9 +33,10 @@ class App extends Component {
               <h1> Eka Aditia C </h1>
               <span>c is cristiyanto </span>
               <p>
-                Good
-                <Greetings title="Evening" />
 
+                <span>
+                 Good {this.state.says}
+                </span>
                 , Have Nice Day! <br/>
                 I'm a UI/UX and developer at
                 <a href="www.java-valley.com" title="Java Valley: My awesome office"> Java Valley </a>.
